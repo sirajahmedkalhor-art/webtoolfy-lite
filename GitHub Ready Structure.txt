@@ -1,0 +1,15 @@
+webtoolfy-lite/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── LICENSE
+└── assets/
+    └── icons/
+        ├── color.svg
+        ├── gradient.svg
+        ├── glass.svg
+        ├── boxshadow.svg
+        ├── svgeditor.svg
+        └── contrast.svg

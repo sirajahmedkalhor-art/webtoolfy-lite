@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebToolfy Lite - Free CSS Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>WebToolfy Lite - Free CSS Tools</h1>
+  </header>
+
+  <main>
+    <!-- Color Picker -->
+    <section id="color-picker">
+      <img src="assets/icons/color.svg" alt="Color Picker">
+      <h2>Color Picker</h2>
+      <input type="color" id="colorInput">
+      <p id="colorValue">#000000</p>
+    </section>
+
+    <!-- Gradient Generator -->
+    <section id="gradient-generator">
+      <img src="assets/icons/gradient.svg" alt="Gradient Generator">
+      <h2>Gradient Generator</h2>
+      <input type="color" id="gradStart">
+      <input type="color" id="gradEnd">
+      <div id="gradientPreview" style="width:100%; height:100px; background:linear-gradient(to right, red, blue)"></div>
+    </section>
+
+    <!-- Glassmorphism Preview -->
+    <section id="glass">
+      <img src="assets/icons/glass.svg" alt="Glassmorphism">
+      <h2>Glassmorphism Preview</h2>
+      <div class="glass-box">Frosted Glass</div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
