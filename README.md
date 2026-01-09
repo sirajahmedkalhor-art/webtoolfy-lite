@@ -1,6 +1,6 @@
-# PixelKit Lite
+# Webtoolfy Lite
 
-PixelKit Lite is a free, open-source CSS tool collection for designers and developers.  
+Webtoolfy Lite is a free, open-source CSS tool collection for designers and developers.  
 It includes:
 
 - Color Picker
@@ -15,3 +15,4 @@ Open `index.html` in your browser and start using the tools.
 
 ## License
 MIT License - Free to use, modify, and share.
+
